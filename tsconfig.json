@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "declaration": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "src/@types"
+        ]
+    }
+}
