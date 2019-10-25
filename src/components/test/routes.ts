@@ -26,7 +26,7 @@ export default [
             ]
     },
     {
-        path: '/error',
+        path: '/test',
         method: 'get',
         handler: (req: Request, res: Response) => {
             throw new HTTP400Error('Weird error');

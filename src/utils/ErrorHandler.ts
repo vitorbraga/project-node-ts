@@ -1,5 +1,5 @@
 import { Response, NextFunction } from 'express';
-import { HTTPClientError } from './http-errors/httpErrors';
+import { HTTPClientError } from './http-errors/HTTPClientError';
 import { HTTP404Error } from './http-errors/HTTP404Error';
 
 export const notFoundError = () => {

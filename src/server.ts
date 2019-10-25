@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 import { applyMiddleware, applyRoutes } from './utils';
 import commonMiddlewares from './middleware/common';
 import errorHandlers from './middleware/errorHandlers';
-import routes from './api';
+import routes from './apis';
 
 dotenv.config();
 

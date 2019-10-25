@@ -1,4 +1,4 @@
-import { HTTPClientError } from './httpErrors';
+import { HTTPClientError } from './HTTPClientError';
 
 export class HTTP404Error extends HTTPClientError {
     readonly statusCode = 404;
