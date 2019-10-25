@@ -8,7 +8,6 @@
         ],
         "noImplicitAny": true,
         "noUnusedLocals": true,
-        "experimentalDecorators": true,
         "strict": true,
         "sourceMap": true,
         "outDir": "dist",

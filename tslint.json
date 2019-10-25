@@ -89,6 +89,7 @@
         ],
         "no-bitwise": [
             false
-        ]
+        ],
+        "indent": [true, "spaces", 4]
     }
 }
